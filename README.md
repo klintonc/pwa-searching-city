@@ -2,6 +2,15 @@
 
 A small Progressive Web App (PWA) built with React that shows the current weather for any city, using the [OpenWeatherMap API](https://openweathermap.org/current).
 
+![Home page](./docs/screenshots/home.png)
+
+<details>
+<summary>Mobile</summary>
+
+<img src="./docs/screenshots/home-mobile.png" alt="Home page on mobile" width="320" />
+
+</details>
+
 ## Features
 
 - Search a city and press **Enter** to see its current temperature (°C), country and weather condition with an icon
@@ -60,5 +69,7 @@ src/
 ├── App.js              # Search input and weather card
 ├── App.css
 ├── index.js
+├── assets/bg.jpg       # Background image
 └── api/fetchWeather.js # OpenWeatherMap client
+docs/screenshots/
 ```
